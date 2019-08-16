@@ -9,7 +9,7 @@
 
 #### 二、	資料建模
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/%E5%BB%BA%E6%A8%A1%E7%94%A8%E8%B3%87%E6%96%99%E9%9B%86.png">
+  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/%E5%BB%BA%E6%A8%A1%E7%94%A8%E8%B3%87%E6%96%99%E9%9B%86.png" style="border: 1px solid black">
   <br>
    圖 1		建模用資料集
 </p>
