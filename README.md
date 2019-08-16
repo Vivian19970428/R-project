@@ -56,7 +56,9 @@
 
 4.	從時間序列圖來看，金融保險業的借貸金額呈現正成長的趨勢，因此我們將預測該產業未來的借貸情形是否為穩定正成長。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/金融保險業貸款金額時間序列圖.png" width="800px">
+  <kbd>
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/金融保險業貸款金額時間序列圖.png" width="800px">
+  </kbd>
   <br>
    圖 5		金融保險業貸款金額時間序列圖
 </p>
@@ -65,7 +67,9 @@
 #### 二、	分析資料的時間序列是否可建模
 1.	利用ACF和PACF圖來了解該資料的時間序列是否具準確性。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PAC與PACF圖程式碼.png" width="800px">
+  <kbd>
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PAC與PACF圖程式碼.png" width="800px">
+  </kbd>
   <br>
    圖 6		PAC與PACF圖程式碼
 </p>
@@ -73,17 +77,21 @@
 
 2.	製作ARIMA模型，矯正出最佳的可預測模型。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型、殘差ACF與PACF圖.png" width="800px">
+  <kbd>
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型、殘差ACF與PACF圖.png" width="800px">
+  </kbd>
   <br>
    圖 7		ARIMA模型、殘差ACF與PACF圖
 </p>
 <br>
 
 3.	一般情況與ARIMA模型的ACF、PACF之比較，可以看出右邊的ACF和PACF圖有呈現白噪音的特性，表示該模型是好的。
-| 一般情況 | ARIMA模型|
-| --- | --- |
-| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ACF圖.png" width="400px"><br>ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PACF圖.png" width="400px"><br>PACF圖</p> |
-| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的ACF圖.png" width="400px"><br>ARIMA模型的ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的PACF圖.png" width="400px"><br>ARIMA模型的PACF圖</p> |
+
+|一般情況|ARIMA模型|
+|---|---|
+|<p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ACF圖.png" width="400px"><br>ACF圖</p>|<p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PACF圖.png" width="400px"><br>PACF圖</p>|
+|<p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的ACF圖.png" width="400px"><br>ARIMA模型的ACF圖</p>|<p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的PACF圖.png" width="400px"><br>ARIMA模型的PACF圖</p>|
+
 <br>
 
 #### 三、	建立預測模型
