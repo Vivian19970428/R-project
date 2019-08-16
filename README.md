@@ -26,10 +26,13 @@
 #### 一、	企業產業別貸款總金額變化圖(2013-2018)
 1.	引入ggplot2與useful套件，並將上述資料集中的「企業產業別貸款總金額」以折線圖方式呈現，觀察各產業別2013-2018年借貸金額的變化趨勢。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/折線圖程式碼.png">
+  <kbd>
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/折線圖程式碼.png" width="300px">
+  </kbd>
   <br>
    圖 2		折線圖程式碼
 </p>
+
 2.	從該折線圖上可看出金融保險業的借貸金額自2015年開始急遽陡升，因此我們將以「金融保險業」的相關資料製作時間序列模型。
 <p align="center">
   <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/各產業別2013-2018的貸款金額變化折線圖.png">
