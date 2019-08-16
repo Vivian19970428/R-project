@@ -27,7 +27,7 @@
 1.	引入ggplot2與useful套件，並將上述資料集中的「企業產業別貸款總金額」以折線圖方式呈現，觀察各產業別2013-2018年借貸金額的變化趨勢。
 <p align="center">
   <kbd>
-    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/折線圖程式碼.png" width="300px">
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/折線圖程式碼.png" width="700px">
   </kbd>
   <br>
    圖 2		折線圖程式碼
