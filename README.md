@@ -32,6 +32,7 @@
   <br>
    圖 2		折線圖程式碼
 </p>
+<br>
 
 2.	從該折線圖上可看出金融保險業的借貸金額自2015年開始急遽陡升，因此我們將以「金融保險業」的相關資料製作時間序列模型。
 <p align="center">
@@ -41,53 +42,67 @@
   <br>
    圖 3		各產業別2013-2018的貸款金額變化折線圖
 </p>
+<br>
+
 3.	抽取「金融保險業」的資料，並製作成時間序列圖。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/時間序列圖程式碼.png">
+  <kbd>
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/時間序列圖程式碼.png" width="800px">
+  </kbd>
   <br>
    圖 4		時間序列圖程式碼
 </p>
+<br>
+
 4.	從時間序列圖來看，金融保險業的借貸金額呈現正成長的趨勢，因此我們將預測該產業未來的借貸情形是否為穩定正成長。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/金融保險業貸款金額時間序列圖.png">
+  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/金融保險業貸款金額時間序列圖.png" width="800px">
   <br>
    圖 5		金融保險業貸款金額時間序列圖
 </p>
+<br>
 
 #### 二、	分析資料的時間序列是否可建模
 1.	利用ACF和PACF圖來了解該資料的時間序列是否具準確性。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PAC與PACF圖程式碼.png">
+  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PAC與PACF圖程式碼.png" width="800px">
   <br>
    圖 6		PAC與PACF圖程式碼
 </p>
+<br>
+
 2.	製作ARIMA模型，矯正出最佳的可預測模型。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型、殘差ACF與PACF圖.png">
+  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型、殘差ACF與PACF圖.png" width="800px">
   <br>
    圖 7		ARIMA模型、殘差ACF與PACF圖
 </p>
+<br>
+
 3.	一般情況與ARIMA模型的ACF、PACF之比較，可以看出右邊的ACF和PACF圖有呈現白噪音的特性，表示該模型是好的。
 | 一般情況 | ARIMA模型|
 | --- | --- |
-| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ACF圖.png"><br>ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PACF圖.png"><br>PACF圖</p> |
-| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的ACF圖.png"><br>ARIMA模型的ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的PACF圖.png"><br>ARIMA模型的PACF圖</p> |
+| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ACF圖.png" width="400px"><br>ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PACF圖.png" width="400px"><br>PACF圖</p> |
+| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的ACF圖.png" width="400px"><br>ARIMA模型的ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的PACF圖.png" width="400px"><br>ARIMA模型的PACF圖</p> |
+<br>
 
 #### 三、	建立預測模型
 1.	利用predict函數預測金融保險業未來5年的貸款金額，並利用forecast函數將ARIMA模型結果轉換成圖表。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/predict函數與forecast函數程式.png">
+  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/predict函數與forecast函數程式.png" width="800px">
   <br>
    圖 8		predict函數與forecast函數程式
 </p>
+<br>
+
 2.	從predict函數與圖形結果來看，金融保險業未來的貸款金額呈現零成長且不穩定的狀態。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/predict函數之未來5年結果.png">
+  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/predict函數之未來5年結果.png" width="800px">
   <br>
    圖 9		predict函數之未來5年結果
 </p>
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/未來5年的時間序列估計圖.png">
+  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/未來5年的時間序列估計圖.png" width="800px">
   <br>
    圖 10		未來5年的時間序列估計圖
 </p>
