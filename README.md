@@ -27,7 +27,7 @@
 1.	引入ggplot2與useful套件，並將上述資料集中的「企業產業別貸款總金額」以折線圖方式呈現，觀察各產業別2013-2018年借貸金額的變化趨勢。
 <p align="center">
   <kbd>
-    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/折線圖程式碼.png" width="700px">
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/折線圖程式碼.png" width="800px">
   </kbd>
   <br>
    圖 2		折線圖程式碼
@@ -35,7 +35,9 @@
 
 2.	從該折線圖上可看出金融保險業的借貸金額自2015年開始急遽陡升，因此我們將以「金融保險業」的相關資料製作時間序列模型。
 <p align="center">
-  <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/各產業別2013-2018的貸款金額變化折線圖.png">
+  <kbd>
+    <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/各產業別2013-2018的貸款金額變化折線圖.png" width="800px">
+  </kbd>
   <br>
    圖 3		各產業別2013-2018的貸款金額變化折線圖
 </p>
@@ -66,7 +68,10 @@
    圖 7		ARIMA模型、殘差ACF與PACF圖
 </p>
 3.	一般情況與ARIMA模型的ACF、PACF之比較，可以看出右邊的ACF和PACF圖有呈現白噪音的特性，表示該模型是好的。
-
+| 一般情況 | ARIMA模型|
+| --- | --- |
+| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ACF圖.png"><br>ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/PACF圖.png"><br>PACF圖</p> |
+| <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的ACF圖.png"><br>ARIMA模型的ACF圖</p> | <p align="center"><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/ARIMA模型的PACF圖.png"><br>ARIMA模型的PACF圖</p> |
 
 #### 三、	建立預測模型
 1.	利用predict函數預測金融保險業未來5年的貸款金額，並利用forecast函數將ARIMA模型結果轉換成圖表。
