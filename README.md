@@ -112,6 +112,7 @@
   <br>
    圖 9		predict函數之未來5年結果
 </p>
+<br>
 <p align="center">
   <kbd>
     <img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/未來5年的時間序列估計圖.png" width="800px">
