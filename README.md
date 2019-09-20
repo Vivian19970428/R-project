@@ -7,7 +7,7 @@
 #### 一、	議題背景
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;企業貸款是銀行不可或缺的收入來源之一，而如何<b>藉由歷史資料客觀地預測未來貸款趨勢</b>乃銀行當前所關注的需求，因此本組將著重於<b>時間序列的建模，以期能觀察並分析產業別的貸款金額走向</b>。
 
-#### 二、	資料建模
+#### 二、	資料欄位與檢視
 <p align="center">
   <kbd><img src="https://github.com/Vivian19970428/R-project/blob/master/Picture/%E5%BB%BA%E6%A8%A1%E7%94%A8%E8%B3%87%E6%96%99%E9%9B%86.png"></kbd>
   <br>
